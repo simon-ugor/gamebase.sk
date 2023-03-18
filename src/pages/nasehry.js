@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import ninjaHopIcon from "../images/ninjaHopPlaystore.png"
 import dropTheBasketballIcon from "../images/dropTheBasketballIcon.png"
+import whatTheRocketIcon from "../images/whatTheRocketIcon.png"
 
 const nasehry = () => {
   return (
@@ -26,7 +27,7 @@ const nasehry = () => {
                       <a href="/whattherocket" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
-                          src={dropTheBasketballIcon}
+                          src={whatTheRocketIcon}
                           alt="What The Rocket icon"
                         />
                         <p className='game-title'>What The Rocket</p>
