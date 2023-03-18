@@ -161,13 +161,22 @@ html, body {
 .pages-games-div {
     text-align: center;
     display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 49% 49%;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    row-gap: 2%;
 }
 
-.game-one .game-two .game-three .game-four {
-    display: grid;
-    grid-template-rows: 80% 20%;
+.game-one, .game-three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.game-two, .game-four {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .game-icon {
@@ -186,6 +195,10 @@ html, body {
     font-family: normalText;
     color: white;
     font-size: 1.8vw;
+}
+
+.game-link {
+    text-decoration: none;
 }
 
 .pages-text {
@@ -304,5 +317,29 @@ html, body {
         grid-template-columns: 10% auto 10%;
     }
 
+    .pages-games-div {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 35% 35%;
+        grid-template-columns: 44% 44%;
+        column-gap: 12%;
+        row-gap: 0%;
+    }
+    
+    .game-icon-image {
+        border-radius: 25px;
+        width: 28vw;
+        height: 28vw;
+    }
+    
+    .game-title {
+        font-family: normalText;
+        color: white;
+        font-size: 4.5vw;
+    }
+    
+    .game-link {
+        text-decoration: none;
+    }
 }
 

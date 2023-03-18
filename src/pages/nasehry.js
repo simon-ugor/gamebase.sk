@@ -23,38 +23,38 @@ const nasehry = () => {
             <div className='pages-games-div'>
                 <div className='game-one'>
                     <div className='game-icon'>
-                      <Image
-                        className='game-icon-image'
-                        src={dropTheBasketballIcon}
-                        alt="Ninja Hop icon"
-                      />
-                    </div>
-                    <div className='game-title'>
-                      <p>Drop The Basketball</p>
+                      <Link href="/whattherocket" className='game-link'>
+                        <Image
+                          className='game-icon-image'
+                          src={dropTheBasketballIcon}
+                          alt="What The Rocket icon"
+                        />
+                        <p className='game-title'>What The Rocket</p>
+                      </Link>
                     </div>
                 </div>
                 <div className='game-two'>
-                  <div className='game-icon'>
-                      <Image
-                        className='game-icon-image'
-                        src={ninjaHopIcon}
-                        alt="Ninja Hop icon"
-                      />
-                    </div>
-                    <div className='game-title'>
-                      <p>Ninja Hop</p>
+                    <div className='game-icon'>
+                      <Link href="/dropthebasketball" className='game-link'>
+                        <Image
+                          className='game-icon-image'
+                          src={dropTheBasketballIcon}
+                          alt="Drop The Basketball icon"
+                        />
+                        <p className='game-title'>Drop The Basketball</p>
+                      </Link>
                     </div>
                   </div>
                 <div className='game-three'>
-                  <div className='game-icon'>
-                      <Image
-                        className='game-icon-image'
-                        src={ninjaHopIcon}
-                        alt="Ninja Hop icon"
-                      />
-                    </div>
-                    <div className='game-title'>
-                      <p>Ninja Hop</p>
+                    <div className='game-icon'>
+                      <Link href="/ninjahop" className='game-link'>
+                        <Image
+                          className='game-icon-image'
+                          src={ninjaHopIcon}
+                          alt="Ninja Hop icon"
+                        />
+                        <p className='game-title'>Ninja Hop</p>
+                      </Link>
                     </div>
                   </div>
                 <div className='game-four'></div>
