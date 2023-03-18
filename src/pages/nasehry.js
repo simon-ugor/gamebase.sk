@@ -23,38 +23,38 @@ const nasehry = () => {
             <div className='pages-games-div'>
                 <div className='game-one'>
                     <div className='game-icon'>
-                      <Link href="/whattherocket" className='game-link'>
+                      <a href="/whattherocket" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
                           src={dropTheBasketballIcon}
                           alt="What The Rocket icon"
                         />
                         <p className='game-title'>What The Rocket</p>
-                      </Link>
+                      </a>
                     </div>
                 </div>
                 <div className='game-two'>
                     <div className='game-icon'>
-                      <Link href="/dropthebasketball" className='game-link'>
+                      <a href="/dropthebasketball" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
                           src={dropTheBasketballIcon}
                           alt="Drop The Basketball icon"
                         />
                         <p className='game-title'>Drop The Basketball</p>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 <div className='game-three'>
                     <div className='game-icon'>
-                      <Link href="/ninjahop" className='game-link'>
+                      <a href="/ninjahop" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
                           src={ninjaHopIcon}
                           alt="Ninja Hop icon"
                         />
                         <p className='game-title'>Ninja Hop</p>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 <div className='game-four'></div>
