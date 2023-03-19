@@ -316,7 +316,7 @@ html, body {
         text-decoration: underline;
     }
 
-    .pages-text {
+    .pages-text, .pages-text-underline {
         font-size: 5.5vw;
     }
 
@@ -348,6 +348,10 @@ html, body {
     
     .game-link {
         text-decoration: none;
+    }
+
+    .main-div-pages {
+        grid-template-rows: 15vh auto 13vh;
     }
 }
 
