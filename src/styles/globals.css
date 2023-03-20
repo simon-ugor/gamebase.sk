@@ -47,6 +47,15 @@ html, body {
     grid-template-columns: 50% 50%;
 }
 
+.grid-row-one-column-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.english-link {
+    color: white;
+}
+
 .instagram {
     display: flex;
     align-items: center;
@@ -221,6 +230,15 @@ html, body {
     align-items: center;
 }
 
+.privacy-policy-link {
+    color: white;
+    font-family: normalText;
+}
+
+.privacy-policy-link {
+    margin-bottom: 2vw;
+}
+
 @media screen and (orientation: portrait) {
 
     .main-div {
@@ -276,14 +294,16 @@ html, body {
     .link-desc {
         display: flex;
         align-items: top;
+        justify-content: center;
         font-size: 6.5vw;
         padding: 1vw;
+        text-align: center;
     }
 
     .grid-row-one {
         display: grid;
         width: 100%;
-        grid-template-columns: 100% 0%;
+        grid-template-columns: 50% 50%;
     }
     
     .grid-row-one-column-one {
