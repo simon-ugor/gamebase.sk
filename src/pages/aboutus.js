@@ -17,7 +17,7 @@ const onas = () => {
         <div className='pages-row-two'>
             <div></div>
             <div className='pages-text-div'>
-                <p className='pages-text'>Write some great about us text in english and place it here</p>
+                <p className='pages-text'>GameBase is a game development studio based in Slovakia. Our main focus are simple mobile games that players can enjoy in their free time.</p>
             </div>
             <div></div>
         </div>

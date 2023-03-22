@@ -17,7 +17,7 @@ const onas = () => {
         <div className='pages-row-two'>
             <div></div>
             <div className='pages-text-div'>
-                <p className='pages-text'>GameBase je herné vývojárske štúdio založené na Slovensku. Venujeme sa najmä jednoduchým mobilným hrám.</p>
+                <p className='pages-text'>GameBase je herné vývojárske štúdio založené na Slovensku. Venujeme sa najmä jednoduchým mobilným hrám ktoré si hráči môžu užiť vo voľnom čase.</p>
             </div>
             <div></div>
         </div>
