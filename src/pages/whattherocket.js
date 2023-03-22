@@ -32,7 +32,7 @@ export default function Home({deviceInfo, testMessage}) {
 
   useEffect(() => {
     if(testMessage == "ios"){
-      window.location.assign("https://apps.apple.com/sk/app/ninja-hop/id1661586190") 
+      window.location.assign("https://apps.apple.com/sk/app/whattherocket/id1601871237") 
     } else {
       window.location.assign("https://play.google.com/store/apps/details?id=com.coldendev.ninjahop")
     }
@@ -42,8 +42,8 @@ export default function Home({deviceInfo, testMessage}) {
   return (
     <div>
       <Head>
-        <title>GAMEBASE.SK - Ninja Hop</title>
-        <meta name="description" content="GAMEBASE.SK - Ninja Hop" />
+        <title>GAMEBASE.SK - What The Rocket</title>
+        <meta name="description" content="GAMEBASE.SK - What The Rocket" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

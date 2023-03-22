@@ -36,18 +36,6 @@ const nasehry = () => {
                 </div>
                 <div className='game-two'>
                     <div className='game-icon'>
-                      <a href="/dropthebasketball" className='game-link' target="_blank">
-                        <Image
-                          className='game-icon-image'
-                          src={dropTheBasketballIcon}
-                          alt="Drop The Basketball icon"
-                        />
-                        <p className='game-title'>Drop The Basketball</p>
-                      </a>
-                    </div>
-                  </div>
-                <div className='game-three'>
-                    <div className='game-icon'>
                       <a href="/ninjahop" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
@@ -58,6 +46,20 @@ const nasehry = () => {
                       </a>
                     </div>
                   </div>
+                  {/* Comment starting here */}
+                <div className='game-three'>
+                    <div className='game-icon'>
+                      <a href="/dropthebasketball" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={dropTheBasketballIcon}
+                          alt="Drop The Basketball icon"
+                        />
+                        <p className='game-title'>Drop The Basketball</p>
+                      </a>
+                    </div>
+                  </div>
+                  {/* Comment ending here */}
                 <div className='game-four'></div>
             </div>
             <div></div>
