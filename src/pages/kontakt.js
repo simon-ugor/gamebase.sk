@@ -17,7 +17,7 @@ const kontakt = () => {
         <div className='pages-row-two'>
             <div></div>
             <div className='pages-text-div'>
-                <p className='pages-text'>gamebaseslovakia@gmail.com</p>
+                <p className='pages-text'>V prípade akýchkoľvek otázok alebo nápadov nám neváhaj napísať na <nobr style={{"textDecoration": "underline"}} >gamebaseslovakia@gmail.com</nobr></p>
             </div>
             <div></div>
         </div>

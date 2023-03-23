@@ -17,7 +17,7 @@ const onas = () => {
         <div className='pages-row-two'>
             <div></div>
             <div className='pages-text-div'>
-                <p className='pages-text'>GameBase is a game development studio based in Slovakia. Our main focus are simple mobile games that players can enjoy in their free time.</p>
+                <p className='pages-text'>GameBase is a game development studio based in Slovakia. Our studio aims to create simple, engaging games that players of all ages can enjoy. Play anytime, anywhere when you need a break from everyday life. Games require minimal thought, are easy to play and provide a relaxing escape anytime and anywhere. All of <Link style={{"color": "white"}} href="/ourgames">our games</Link> are available on iOS and Android, and can be found on the Apple App Store as well as the Google Play Store. So choose from our selection of games and dive into a gaming adventure with us.</p>
             </div>
             <div></div>
         </div>

@@ -17,7 +17,7 @@ const kontakt = () => {
         <div className='pages-row-two'>
             <div></div>
             <div className='pages-text-div'>
-                <p className='pages-text'>gamebaseslovakia@gmail.com</p>
+                <p className='pages-text'>If you have any questions or ideas, don't hesitate to email us at <nobr style={{"textDecoration": "underline"}} >gamebaseslovakia@gmail.com</nobr></p>
             </div>
             <div></div>
         </div>
