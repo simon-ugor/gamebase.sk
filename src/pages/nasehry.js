@@ -46,7 +46,7 @@ const nasehry = () => {
                       </a>
                     </div>
                   </div>
-                {/* Comment starting here */}
+                {/* 
                 <div className='game-three'>
                     <div className='game-icon'>
                       <a href="/dropthebasketball" className='game-link' target="_blank">
@@ -59,7 +59,7 @@ const nasehry = () => {
                       </a>
                     </div>
                   </div>
-                  {/* Comment ending here */}
+                  */}
                 <div className='game-four'></div>
             </div>
             <div></div>
