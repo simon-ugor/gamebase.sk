@@ -34,7 +34,7 @@ export default function Home({deviceInfo, testMessage}) {
     if(testMessage == "ios"){
       window.location.assign("https://apps.apple.com/sk/app/whattherocket/id1601871237") 
     } else {
-      window.location.assign("https://play.google.com/store/apps/details?id=com.coldendev.ninjahop")
+      window.location.assign("https://play.google.com/store/apps/details?id=com.gamebase.whattherocket")
     }
     
   })
