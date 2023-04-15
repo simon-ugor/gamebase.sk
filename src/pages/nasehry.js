@@ -5,6 +5,7 @@ import Image from 'next/image'
 import ninjaHopIcon from "../images/ninjaHopPlaystore.png"
 import dropTheBasketballIcon from "../images/dropTheBasketballIcon.png"
 import whatTheRocketIcon from "../images/whatTheRocketIcon.png"
+import hackTheGameIcon from "../images/hackTheGameIcon.png"
 
 const nasehry = () => {
   return (
@@ -46,20 +47,18 @@ const nasehry = () => {
                       </a>
                     </div>
                   </div>
-                {/* 
                 <div className='game-three'>
                     <div className='game-icon'>
-                      <a href="/dropthebasketball" className='game-link' target="_blank">
+                      <a href="/hackthegame" className='game-link' target="_blank">
                         <Image
                           className='game-icon-image'
-                          src={dropTheBasketballIcon}
-                          alt="Drop The Basketball icon"
+                          src={hackTheGameIcon}
+                          alt="Hack The Game icon"
                         />
-                        <p className='game-title'>Drop The Basketball</p>
+                        <p className='game-title'>Hack The Game</p>
                       </a>
                     </div>
                   </div>
-                  */}
                 <div className='game-four'></div>
             </div>
             <div></div>
