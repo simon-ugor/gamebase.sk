@@ -42,8 +42,8 @@ export default function Home({deviceInfo, testMessage}) {
   return (
     <div>
       <Head>
-        <title>GAMEBASE.SK - Hack The Game</title>
-        <meta name="description" content="GAMEBASE.SK - Hack The Game" />
+        <title>GAMEBASE.SK - Drop That Box</title>
+        <meta name="description" content="GAMEBASE.SK - Drop That Box" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
