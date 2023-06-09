@@ -7,6 +7,7 @@ import dropTheBasketballIcon from "../images/dropTheBasketballIcon.png"
 import whatTheRocketIcon from "../images/whatTheRocketIcon.png"
 import hackTheGameIcon from "../images/hackTheGameIcon.png"
 import dropThatBoxIcon from "../images/dropThatBoxIcon.png"
+import basketFlicksIcon from "../images/basketFlicksIcon.png"
 
 const nasehry = () => {
   return (
@@ -36,18 +37,7 @@ const nasehry = () => {
                       </a>
                     </div>
                 </div>
-                <div className='game-two'>
-                    <div className='game-icon'>
-                      <a href="/ninjahop" className='game-link' target="_blank">
-                        <Image
-                          className='game-icon-image'
-                          src={ninjaHopIcon}
-                          alt="Ninja Hop icon"
-                        />
-                        <p className='game-title'>Ninja Hop</p>
-                      </a>
-                    </div>
-                  </div>
+
                 <div className='game-three'>
                     <div className='game-icon'>
                       <a href="/hackthegame" className='game-link' target="_blank">
@@ -60,7 +50,8 @@ const nasehry = () => {
                       </a>
                     </div>
                   </div>
-                <div className='game-four'>
+
+                  <div className='game-four'>
                     <div className='game-icon'>
                       <a href="/dropthatbox" className='game-link' target="_blank">
                         <Image
@@ -72,6 +63,50 @@ const nasehry = () => {
                       </a>
                     </div>
                 </div>
+
+                <div className='game-two'>
+                    <div className='game-icon'>
+                      <a href="/ninjahop" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={ninjaHopIcon}
+                          alt="Ninja Hop icon"
+                        />
+                        <p className='game-title'>Ninja Hop</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-five'>
+                    <div className='game-icon'>
+                      <a href="/basketflicks" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={basketFlicksIcon}
+                          alt="Basket Flicks icon"
+                        />
+                        <p className='game-title'>Basket Flicks</p>
+                      </a>
+                    </div>
+                  </div>
+                  {/*
+                  <div className='game-six'>
+                    <div className='game-icon'>
+                      <a href="/dropthebasketball" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={dropTheBasketballIcon}
+                          alt="Drop The Basketball icon"
+                        />
+                        <p className='game-title'>Drop The Basketball</p>
+                      </a>
+                    </div>
+                  </div>
+                  */}
+
+                
+
+                
             </div>
             <div></div>
         </div>
