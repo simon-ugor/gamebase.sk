@@ -245,6 +245,10 @@ html, body {
     background-color: rgb(183, 183, 183);
 }
 
+.submit-email-button:hover {
+    cursor: pointer;
+}
+
 
 .pages-text-underline {
     font-family: normalText;
