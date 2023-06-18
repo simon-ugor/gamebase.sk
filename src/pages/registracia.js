@@ -47,7 +47,7 @@ const registracia = () => {
                 <div></div>
                 <div className='pages-text-div'>
                     <p className='pages-text'>Zadaj svoj e-mail</p>
-                    <input placeholder={placeHolder} className='email-input' value={email} onChange={(e) => setEmail(e.currentTarget.value)}></input>
+                    <input type='email' placeholder={placeHolder} className='email-input' value={email} onChange={(e) => setEmail(e.currentTarget.value)}></input>
                     <br />
                     <button className='submit-email-button' onClick={submitClick}>Odoslať</button>
                 </div>
