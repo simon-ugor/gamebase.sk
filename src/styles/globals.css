@@ -77,6 +77,10 @@ html, body {
     align-items: center;
 }
 
+.grid-row-two-custom {
+    text-align: center;
+}
+
 .gamebase-title {
     font-size: 11vw;
     padding-top: 0;
