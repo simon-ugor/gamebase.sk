@@ -8,6 +8,7 @@ import whatTheRocketIcon from "../images/whatTheRocketIcon.png"
 import hackTheGameIcon from "../images/hackTheGameIcon.png"
 import dropThatBoxIcon from "../images/dropThatBoxIcon.png"
 import basketFlicksIcon from "../images/basketFlicksIcon.png"
+import tiltFishTycoonIcon from "../images/tiltFishTycoonIcon.png"
 
 const nasehry = () => {
   return (
@@ -99,6 +100,19 @@ const nasehry = () => {
                           alt="Drop The Basketball icon"
                         />
                         <p className='game-title'>Drop The Basketball</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-seven'>
+                    <div className='game-icon'>
+                      <a href="/tiltfishtycoon" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={tiltFishTycoonIcon}
+                          alt="Tilt Fish Tycoon icon"
+                        />
+                        <p className='game-title'>Tilt Fish Tycoon</p>
                       </a>
                     </div>
                   </div>

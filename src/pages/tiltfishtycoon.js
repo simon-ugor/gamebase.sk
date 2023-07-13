@@ -1,65 +1,52 @@
-import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
+import { useEffect } from 'react'
 
-import { BsInstagram } from "react-icons/bs"
+Home.getInitialProps = (ctx) => {
+    let isMobileView = (ctx.req
+        ? ctx.req.headers['user-agent']
+        : navigator.userAgent).match(
+          /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+    )
 
-const tiltfishtycoon = () => {
+    let testMessage;
+
+    let deviceInfo = ctx.req.headers['user-agent']
+    // if this includes "iphone" - open AppStore
+    // else if it includes "android" (or something like that) - open PlayStore
+    // else it must be a computer - do something else
+    
+    if (deviceInfo.includes("Mac")) {
+      testMessage = "ios"
+    } else {
+      testMessage = "android"
+    }
+    
+
+    return {
+        deviceInfo: deviceInfo,
+        testMessage: testMessage
+    }
+  }
+
+export default function Home({deviceInfo, testMessage}) {
+
+  useEffect(() => {
+    if(testMessage == "ios"){
+      window.location.assign("https://apps.apple.com/app/tilt-fish-tycoon/id6450564030")
+    } else {
+      window.location.assign("https://play.google.com/store/apps/details?id=com.gamebase.tiltfishtycoon")
+    }
+    
+  })
+
   return (
-      <>
-        <Head>
-            <title>GAMEBASE.SK - Tilt Fish Tycoon</title>
-            <meta name="description" content="Hra Tilt Fish Tycoon od GameBase.sk" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <div className='main-div'>
-        <div className='grid-row-one'>
-          <div className='grid-row-one-column-one'>
-            <div className='instagram'>
-              <BsInstagram/>
-              <a
-              href="https://instagram.com/gamebase.sk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="instagram-link"
-              >
-              &nbsp;@gamebase.sk
-              </a>
-            </div>
-            <div className='instagram'></div>
-          </div>
-          <div className='grid-row-one-column-two'>
-            <div></div>
-            <div className='instagram'>
-              <Link className='english-link' href="/tiltfishtycoongame">English</Link>
-            </div>
-          </div>
-        </div>
-        <div className='grid-row-two-custom'>
-            <h1 className='pages-heading'>Tilt Fish Tycoon</h1>
-        </div>
-        <div className='grid-row-three'>
-          <div className='grid-three-row'>
+    <div>
+      <Head>
+        <title>GAMEBASE.SK - Tilt Fish Tycoon</title>
+        <meta name="description" content="GAMEBASE.SK - Tilt Fish Tycoon" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-
-          </div>
-          <div className='grid-three-row'>
-
-
-          </div>
-          <div className='grid-three-row'>
-
-
-          </div>
-          <div className='grid-three-row'>
-
-
-          </div>
-        </div>
-      </div>
-    </>
+    </div>
   )
 }
-
-export default tiltfishtycoon
