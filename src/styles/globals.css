@@ -181,7 +181,7 @@ html, body {
     row-gap: 3%;
 }
 
-.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven {
+.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight {
     display: flex;
     align-items: center;
     justify-content: center;
