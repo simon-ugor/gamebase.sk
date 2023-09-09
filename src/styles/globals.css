@@ -386,7 +386,7 @@ html, body {
     .pages-games-div {
         text-align: center;
         display: grid;
-        grid-template-rows: 23% 23% 23% 23%;
+        grid-template-rows: 18% 18% 18% 18% 18%;
         grid-template-columns: 44% 44%;
         column-gap: 12%;
         row-gap: 3%;
