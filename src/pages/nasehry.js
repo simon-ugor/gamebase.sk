@@ -10,6 +10,7 @@ import dropThatBoxIcon from "../images/dropThatBoxIcon.png"
 import basketFlicksIcon from "../images/basketFlicksIcon.png"
 import tiltFishTycoonIcon from "../images/tiltFishTycoonIcon.png"
 import planetsDodgeIcon from "../images/planetsDodgeIcon.png"
+import sketchLinePuzzleIcon from "../images/sketchLinePuzzleIcon.png"
 
 const nasehry = () => {
   return (
@@ -127,6 +128,19 @@ const nasehry = () => {
                           alt="Planets Dodge icon"
                         />
                         <p className='game-title'>Planets Dodge</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-nine'>
+                    <div className='game-icon'>
+                      <a href="/sketchlinepuzzle" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={sketchLinePuzzleIcon}
+                          alt="Sketch Line Puzzle icon"
+                        />
+                        <p className='game-title'>Sketch Line Puzzle</p>
                       </a>
                     </div>
                   </div>
