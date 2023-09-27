@@ -11,6 +11,7 @@ import basketFlicksIcon from "../images/basketFlicksIcon.png"
 import tiltFishTycoonIcon from "../images/tiltFishTycoonIcon.png"
 import planetsDodgeIcon from "../images/planetsDodgeIcon.png"
 import sketchLinePuzzleIcon from "../images/sketchLinePuzzleIcon.png"
+import vesmirnaMatematikaIcon from "../images/vesmirnaMatematikaIcon.png"
 
 const nasehry = () => {
   return (
@@ -141,6 +142,19 @@ const nasehry = () => {
                           alt="Sketch Line Puzzle icon"
                         />
                         <p className='game-title'>Sketch Line Puzzle</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-ten'>
+                    <div className='game-icon'>
+                      <a href="/vesmirnamatematika" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={vesmirnaMatematikaIcon}
+                          alt="Vesmírna Matematika icon"
+                        />
+                        <p className='game-title'>Vesmírna Matematika</p>
                       </a>
                     </div>
                   </div>

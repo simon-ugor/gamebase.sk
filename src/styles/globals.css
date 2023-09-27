@@ -175,13 +175,13 @@ html, body {
 .pages-games-div {
     text-align: center;
     display: grid;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 24% 24% 24% 24%;
     grid-template-columns: 33% 33% 33%;
     column-gap: 1%;
     row-gap: 3%;
 }
 
-.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine {
+.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine, .game-ten {
     display: flex;
     align-items: center;
     justify-content: center;
