@@ -12,7 +12,7 @@ import tiltFishTycoonIcon from "../images/tiltFishTycoonIcon.png"
 import planetsDodgeIcon from "../images/planetsDodgeIcon.png"
 import sketchLinePuzzleIcon from "../images/sketchLinePuzzleIcon.png"
 import vesmirnaMatematikaIcon from "../images/vesmirnaMatematikaIcon.png"
-import ninjaWallrunIcon from "../images/ninjawallrun.png"
+import ninjaWallrunIcon from "../images/ninjaWallrun.png"
 
 const nasehry = () => {
   return (
