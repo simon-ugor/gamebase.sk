@@ -181,7 +181,7 @@ html, body {
     row-gap: 3%;
 }
 
-.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine, .game-ten {
+.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine, .game-ten, .game-eleven {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,7 +386,7 @@ html, body {
     .pages-games-div {
         text-align: center;
         display: grid;
-        grid-template-rows: 18% 18% 18% 18% 18%;
+        grid-template-rows: 15% 15% 15% 15% 15% 15%;
         grid-template-columns: 44% 44%;
         column-gap: 12%;
         row-gap: 3%;

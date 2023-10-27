@@ -12,6 +12,7 @@ import tiltFishTycoonIcon from "../images/tiltFishTycoonIcon.png"
 import planetsDodgeIcon from "../images/planetsDodgeIcon.png"
 import sketchLinePuzzleIcon from "../images/sketchLinePuzzleIcon.png"
 import vesmirnaMatematikaIcon from "../images/vesmirnaMatematikaIcon.png"
+import ninjaWallrunIcon from "../images/ninjawallrun.png"
 
 const nasehry = () => {
   return (
@@ -155,6 +156,19 @@ const nasehry = () => {
                           alt="Vesmírna Matematika icon"
                         />
                         <p className='game-title'>Vesmírna Matematika</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-eleven'>
+                    <div className='game-icon'>
+                      <a href="/ninjawallrun" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={ninjaWallrunIcon}
+                          alt="Ninja Wallrun icon"
+                        />
+                        <p className='game-title'>Ninja Wallrun</p>
                       </a>
                     </div>
                   </div>
