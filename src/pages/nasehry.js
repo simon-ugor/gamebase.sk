@@ -14,6 +14,7 @@ import sketchLinePuzzleIcon from "../images/sketchLinePuzzleIcon.png"
 import vesmirnaMatematikaIcon from "../images/vesmirnaMatematikaIcon.png"
 import ninjaWallrunIcon from "../images/ninjaWallrun.png"
 import tinyStreetSkaterIcon from "../images/tinyStreetSkaterIcon.png"
+import christmasHelixIcon from "../images/christmasHelix.png"
 
 const nasehry = () => {
   return (
@@ -187,6 +188,18 @@ const nasehry = () => {
                     </div>
                   </div>
                   
+                  <div className='game-thirteen'>
+                    <div className='game-icon'>
+                      <a href="/christmashelix" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={christmasHelixIcon}
+                          alt="Christmas Helix icon"
+                        />
+                        <p className='game-title'>Christmas Helix</p>
+                      </a>
+                    </div>
+                  </div>
 
                 
 

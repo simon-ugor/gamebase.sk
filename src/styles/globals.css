@@ -176,12 +176,12 @@ html, body {
     text-align: center;
     display: grid;
     grid-template-rows: 24% 24% 24% 24%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     column-gap: 1%;
     row-gap: 3%;
 }
 
-.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine, .game-ten, .game-eleven .game-twelve {
+.game-one, .game-three, .game-two, .game-four, .game-five, .game-six, .game-seven, .game-eight, .game-nine, .game-ten, .game-eleven .game-twelve .game-thirteen {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,10 +386,10 @@ html, body {
     .pages-games-div {
         text-align: center;
         display: grid;
-        grid-template-rows: 15% 15% 15% 15% 15% 15%;
+        grid-template-rows: 13% 13% 13% 13% 13% 13% 13%;
         grid-template-columns: 44% 44%;
         column-gap: 12%;
-        row-gap: 3%;
+        row-gap: 2%;
     }
     
     .game-icon-image {
