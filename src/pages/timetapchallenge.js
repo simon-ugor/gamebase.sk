@@ -42,8 +42,8 @@ export default function Home({deviceInfo, testMessage}) {
   return (
     <div>
       <Head>
-        <title>GAMEBASE.SK - Time Tap Challenge</title>
-        <meta name="description" content="GAMEBASE.SK - Time Tap Challenge" />
+        <title>GAMEBASE.SK - Time Tap Challenge!</title>
+        <meta name="description" content="GAMEBASE.SK - Time Tap Challenge!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
