@@ -16,6 +16,7 @@ import ninjaWallrunIcon from "../images/ninjaWallrun.png"
 import tinyStreetSkaterIcon from "../images/tinyStreetSkaterIcon.png"
 import christmasHelixIcon from "../images/christmasHelix.png"
 import timeTapChallengeIcon from "../images/timeTapChallengeIcon.png"
+import timeTapChallenge2Icon from "../images/timeTapChallenge2Icon.png"
 
 const nasehry = () => {
   return (
@@ -211,6 +212,19 @@ const nasehry = () => {
                           alt="Time Tap Challenge icon"
                         />
                         <p className='game-title'>Time Tap Challenge!</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-fourteen'>
+                    <div className='game-icon'>
+                      <a href="/timetapchallenge2" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={timeTapChallenge2Icon}
+                          alt="Time Tap Challenge Squared icon"
+                        />
+                        <p className='game-title'>Time Tap Challenge&sup2;!</p>
                       </a>
                     </div>
                   </div>
