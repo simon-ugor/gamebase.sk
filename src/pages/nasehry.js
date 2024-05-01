@@ -17,6 +17,7 @@ import tinyStreetSkaterIcon from "../images/tinyStreetSkaterIcon.png"
 import christmasHelixIcon from "../images/christmasHelix.png"
 import timeTapChallengeIcon from "../images/timeTapChallengeIcon.png"
 import timeTapChallenge2Icon from "../images/timeTapChallenge2Icon.png"
+import planetSoundJuggleIcon from "../images/planetSoundJuggleIcon.png"
 
 const nasehry = () => {
   return (
@@ -225,6 +226,19 @@ const nasehry = () => {
                           alt="Time Tap Challenge Squared icon"
                         />
                         <p className='game-title'>Time Tap Challenge&sup2;!</p>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className='game-fifteen'>
+                    <div className='game-icon'>
+                      <a href="/planetsoundjuggle" className='game-link' target="_blank">
+                        <Image
+                          className='game-icon-image'
+                          src={planetSoundJuggleIcon}
+                          alt="Planet Sound Jugle icon"
+                        />
+                        <p className='game-title'>Planet Sound Juggle</p>
                       </a>
                     </div>
                   </div>
